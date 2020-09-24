@@ -1,6 +1,6 @@
 <div class="flex-initial w-1/5">
     {{-- The best athlete wants his opponent at his best. --}}
-    <div class="border-solid border-r border-red-100">
+    <div class="border-solid border-r border-red-100 h-full">
         <div class="logo w-full text-center">
             <h1 class="text-5xl inline-block text-red-600">Vahi</h1>
             <h1 class="text-3xl inline-block text-red-500">.Dev</h1>
