@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="240ad74f-9348-467e-9477-65ad26e167f3" name="Default Changelist" comment="" />
+    <list default="true" id="240ad74f-9348-467e-9477-65ad26e167f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/customStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/PostList.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/PostList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/categories-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/categories-list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/post-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/post-list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -17,6 +31,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="xd9qfk3t" />
@@ -163,6 +180,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -187,6 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600958530460</updated>
       <workItem from="1600958531580" duration="15268000" />
+      <workItem from="1601011172079" duration="2524000" />
     </task>
     <servers />
   </component>
@@ -214,9 +233,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="635" height="667" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601005837252" />
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1600979518305">
+    <state x="469" y="170" key="SettingsEditor" timestamp="1601012310322">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1600979518305" />
+    <state x="469" y="170" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601012310322" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1601012661665">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1601012661665" />
   </component>
 </project>

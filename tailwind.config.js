@@ -9,6 +9,11 @@ module.exports = {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
         },
+        flex: {
+            '10': '0 0 10rem',
+            '1': '1 1 0%',
+            initial: '0 1 auto',
+        },
     },
 
     variants: {

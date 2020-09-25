@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     protected $selectedCategoryId = 0;
+    protected $posts = [];
 
     public function index()
     {
@@ -17,6 +18,7 @@ class HomeController extends Controller
     public function selectCategory(Category $category)
     {
         $this->selectedCategoryId = $category->id;
-        return view('index', ['selectedCategoryId' => $this->selectedCategoryId]);
+        $this->posts = $category->posts;
+        return view('index', ['selectedCategoryId' => $this->selectedCategoryId, 'posts' => $this->posts]);
     }
 }

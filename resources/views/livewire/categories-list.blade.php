@@ -14,19 +14,6 @@
                         <li class="px-5 py-2"><a href="{{route('getPostsByCategory', ['category' => $category])}}">{{ $category->title }}</a></li>
                     @endif
                 @endforeach
-{{--                    wire:click="selectCategory({{$category->id}})"--}}
-                {{--<li class="px-5 py-2"><a href="#">list 2</a></li>
-                <li class="px-5 py-2 bg-gray-200 border-l-2 border-red-700">
-                    <a href="#">list</a>
-                </li>
-                <li class="px-5 py-2"><a href="#">list 2</a></li>
-                <li class="px-5 py-2"><a href="#">list 2</a></li>
-                <li class="px-5 py-2"><a href="#">list 2</a></li>
-                <li class="px-5 py-2"><a href="#">list 2</a></li>
-                <li class="px-5 py-2"><a href="#">list 2</a></li>
-                <li class="px-5 py-2"><a href="#">list 2</a></li>
-                <li class="px-5 py-2"><a href="#">list 2</a></li>--}}
-
             </ul>
         </div>
     </div>

@@ -1,4 +1,4 @@
-<div class="flex-1 overflow-y-auto">
+<div class="flex-1 overflow-y-auto post-list">
     {{-- Stop trying to control. --}}
     <div class="border-r border-red-100">
         <div class="tabs border-b border-red-200 pt-5 px-2">
@@ -20,16 +20,9 @@
             </ul>
         </div>
         <div class="posts-container">
-            <livewire:post />
-            <livewire:post />
-            <livewire:post />
-            <livewire:post />
-            <livewire:post />
-            <livewire:post />
-            <livewire:post />
-            <livewire:post />
-            <livewire:post />
-            <livewire:post />
+            @foreach($posts as $post)
+            <livewire:post :post="$post"/>
+            @endforeach
         </div>
     </div>
 

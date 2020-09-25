@@ -1,4 +1,4 @@
-<div class="flex-1 px-16 overflow-y-auto">
+<div class="flex-1 px-16 overflow-y-auto contentComponent">
     <div class="head mt-5 flex items-center justify-between border-b border-red-100 py-5">
         <div class="flex items-center">
             <img src="/assets/img/avatar.png" class="w-12" alt="Avatar">
