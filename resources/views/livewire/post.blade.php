@@ -7,6 +7,7 @@
         <a
             href="#"
             class="block"
+            wire:click="$emit('updateContent', {{ $post->id }})"
         >{{ $post->title }}</a>
         <p class="author text-sm text-red-400">
             <span class="text-gray-400">by:</span>
@@ -14,3 +15,4 @@
         </p>
     </div>
 </div>
+{{--{{ route('getPost', ['post' => $post]) }}--}}

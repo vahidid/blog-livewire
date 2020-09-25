@@ -11,7 +11,7 @@
                 <div class="max-h-full shadow-xl sm:rounded-lg bg-white flex">
                     <livewire:categories-list :selectedCategoryId="$selectedCategoryId"/>
                     <livewire:post-list :posts="$posts"/>
-                    <livewire:content/>
+                    <livewire:content :post="$post"/>
                 </div>
             </div>
         </div>
