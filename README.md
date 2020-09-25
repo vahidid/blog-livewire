@@ -7,7 +7,7 @@ Used Tailwind for css too \
 This system has seeder for fake Categories, Posts and Users
 
 ## TODO
-- Add loading for load post
+- ~~Add loading for load post~~
 - Register and Login System
 - Admin Panel
 - Comments
